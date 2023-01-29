@@ -1,0 +1,39 @@
+/* Mobile */
+@media (max-width: 576px) {
+  .container-section {
+    max-width: 540px;
+  }
+  .name-banner {
+    font-size: 30px;
+  }
+  /* nav */
+
+  #nav {
+    height: 150px;
+  }
+  .flex-nav {
+    flex-direction: column;
+  }
+  .flex-nav a {
+    font-size: 12px;
+  }
+  .ic-nav {
+    font-size: 12px;
+  }
+  .center-nav {
+    display: none;
+  }
+  .flex-nav div {
+    padding: 6px;
+  }
+  /* finish nav */
+  /* about */
+  .about-container,
+  .job-info-container,
+  .project-container,
+  .container-certificate,
+  .grid-project {
+    grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+}

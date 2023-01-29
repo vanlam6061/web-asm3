@@ -1,0 +1,34 @@
+body {
+  margin: auto;
+  box-sizing: border-box;
+}
+[class^="icon"] {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 15px;
+  /* justify-self: center; */
+  margin: auto;
+  fill: #333;
+  padding-right: 15px;
+}
+.ic {
+  color: #333;
+  font-size: 16px;
+}
+.tt-items {
+  font-weight: 500;
+}
+.tt-scopes {
+  font-weight: 700;
+}
+.ct-items {
+  width: 250px;
+}
+.aa {
+  justify-self: center;
+}
+.bi {
+  color: #9775fa;
+  margin: 15px 20px 0px 10px;
+}

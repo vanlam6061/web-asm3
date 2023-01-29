@@ -1,0 +1,78 @@
+/*  Tablets and under */
+@media (max-width: 768px) {
+  body {
+    font-size: 10px;
+  }
+  .container-section {
+    max-width: 720px;
+  }
+  .section-title {
+    font-size: 30px;
+  }
+  .header-title {
+    font-size: 30px;
+  }
+  .header-prj {
+    font-size: 20px;
+  }
+  .title-items {
+    font-size: 24px;
+  }
+  .name-banner {
+    font-size: 30px;
+  }
+  /* nav */
+  #nav {
+    height: 50px;
+  }
+  .center-nav {
+    width: 40px;
+  }
+  .flex-nav {
+    line-height: 20px;
+  }
+  .flex-nav a {
+    font-size: 12px;
+  }
+  .title-nav {
+    border-right: #ced4da 1px solid;
+    border-collapse: collapse;
+  }
+  .ic-nav {
+    color: #22b8cf;
+    font-size: 12px;
+  }
+  .flex-nav div {
+    padding: 6px;
+  }
+  /* finish nav */
+  /* about */
+  .about-container {
+    height: auto;
+  }
+  #content-left {
+    padding: 16px;
+  }
+  #content-right {
+    background-color: #f1f3f5;
+    padding: 16px;
+  }
+
+  /* finish about */
+  .project-container,
+  .job-info-container {
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-auto-columns: auto; */
+  }
+  /* .job-info-items {
+  height: max-content; */
+
+  .ic {
+    color: #ced4da;
+    font-size: 44px;
+  }
+  /* certificate */
+  .flex-certificate {
+    flex-direction: column;
+  }
+}
